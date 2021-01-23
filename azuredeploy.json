@@ -30,7 +30,7 @@
     "webAppPrimaryName": "[concat(variables('siteName'), '-', replace(variables('siteLocation'), ' ', '-'))]",
     "webAppSecondaryName": "[concat(variables('siteName'), '-', replace(parameters('secondaryLocation'), ' ', '-'))]",
     "createSecondaryLocation": "[and(greater(length(parameters('secondaryLocation')), 0), not(equals(variables('siteLocation'), parameters('secondaryLocation'))))]",
-    "repoUrl": "https://github.com/jahlen/Planetzine",
+    "repoUrl": "https://github.com/sanjayntms/Planetzine",
     "branch": "master",
 
     "cosmosDbLocations1": [
